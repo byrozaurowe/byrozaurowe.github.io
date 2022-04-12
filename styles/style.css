@@ -330,7 +330,7 @@ p.quote-symbol {
 
 .projects-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
   grid-gap: 1.7rem;
   padding: 1rem 0 3rem 0;
 }
