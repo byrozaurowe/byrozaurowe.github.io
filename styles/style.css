@@ -133,7 +133,7 @@ a.simple-link:hover > i {
 }
 
 .nav-bar .burger {
-  font-size: 2rem;
+  font-size: 1.8rem;
   cursor: pointer;
 }
 
@@ -156,7 +156,7 @@ a.simple-link:hover > i {
 
 /* class for opened menu */
 .nav-links.opened {
-  max-height: 320px;
+  max-height: 380px;
 }
 
 .nav-links a {
@@ -223,6 +223,17 @@ a.simple-link:hover > i {
   width: 100%;
   display: block;
   margin: 2rem auto 0 auto;
+}
+.about2-img {
+  width: 40%;
+  display: block;
+  margin: 2rem auto 0 auto;
+}
+
+.about2 {
+  width: 50%;
+  border-radius: 0;
+  margin-top: 1.5rem; 
 }
 
 p.quote-symbol {
@@ -467,6 +478,22 @@ footer .text span {
     grid-gap: 3rem;
   }
 
+  .grid-col.collection {
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 3rem;
+  }
+
+  .grid-col.collection2 {
+    grid-template-columns: 1fr 1.5fr;
+    grid-gap: 3rem;
+  }
+
+  .about2 {
+    width: 100%;
+    border-radius: 0;
+    margin-top: 1.5rem;
+  }
+
   .grid-col.no-col {
     grid-template-columns: 1fr;
   }
@@ -477,7 +504,7 @@ footer .text span {
   }
 
   .nav-bar .burger {
-    font-size: 2.5rem;
+    font-size: 2.2rem;
   }
 
   /* -------------- INTRODUCTION --------------- */
@@ -504,6 +531,12 @@ footer .text span {
 
   .about-img {
     width: 100%;
+    border-radius: 0;
+    margin-top: 1.5rem;
+  }
+
+  .about2-img {
+    width: 70%;
     border-radius: 0;
     margin-top: 1.5rem;
   }
@@ -578,7 +611,7 @@ footer .text span {
   }
 
   .nav-bar .nav-links {
-    font-size: 0.8rem;
+    font-size: 0.7rem;
   }
 
   /* -------------- INTRODUCTION --------------- */
@@ -623,7 +656,7 @@ footer .text span {
   }
 
   .nav-bar .nav-links {
-    font-size: 1rem;
+    font-size: 0.85rem;
   }
 
   /* -------------- INTRODUCTION --------------- */
